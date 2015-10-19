@@ -1,0 +1,40 @@
+*{margin:0}
+
+body {
+	background-color: blue;
+}
+
+#welcome {
+	font-size: 14px;
+	text-align: cjustify;
+	background-color: lime;
+}
+
+#title {
+	background-color: #4AEFE9;
+	padding-top: 3%;
+	padding-bottom: 3%;
+	text-align: center;
+	font-family: tahoma;
+	font-size: 1em;
+	color: white;
+}
+
+#list {
+	border: dashed red 2px;
+	background-color: purple;
+	color: #57DD52;
+	font-family: Calibri;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
+#info {
+	background-color: grey;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
