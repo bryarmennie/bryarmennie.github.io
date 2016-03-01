@@ -1,0 +1,98 @@
+*{margin: 0; padding: 0;}
+
+body {
+	background: #ffffff;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+
+.header {
+	padding: 0px;
+	margin: 0px auto;
+	width: 100%;
+	background: #ffffff;
+}
+
+.webLogo {
+	width: 100%;
+	float: left;
+	background-color: #ffffff;
+}
+
+.header .webLogo img {
+	max-width: 100%;
+}
+
+#headerBreak {
+	background-color: #ff0000;
+	width: 100%;
+	color: #ff0000;
+}
+
+.mainContent {
+	width: 100%;
+}
+
+#menu {
+	width: 20%;
+	float:left; /* added  here as the float should be to the whole menu column */
+	/*height: 100%;    Removed - not required */
+}
+
+#menuIcon{
+	width: 100%;
+	/*float: left;    Removed from here as this is a div tag within menu  */
+	text-align:left;
+}
+
+#menuIcon img {
+	max-width: 100%;
+}
+
+#menuIcon img:hover {
+	background: #aaaaaa;
+}
+
+#menuOptions {
+	/*float: left;   Removed from here as this is a div tag within menu  */
+	display: none;
+	max-width: 100%;
+}
+
+#menuOptions ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: block;
+	width: 100%;
+	background-color: #000000;
+}
+
+#menuOptions ul li a {
+	display: block;
+	color: #ffffff;
+	padding: 10% 0% 20% 0%;
+	text-decoration: none;
+	font-family: Helvetica;
+}
+
+#menuOptions ul li a:hover {
+	background-color: #ff0000;
+	color: #000000;
+}
+
+#aboutText {
+	width: 100%;
+	text-align: center;
+	padding-top: 11%;
+}
+
+#aboutText p {
+	font-size: 100%;
+	font-family: "Arial Black";
+}
+
+#collegeLogo {
+	width: 100%;
+}
